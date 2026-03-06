@@ -1,0 +1,8 @@
+Research Agent -> search internet
+^
+|
+give different documents
+
+Analysis Agent -> loop over each document for deep analysis , has tool for deep understanding and generating data
+
+post processing agent -> generate md report

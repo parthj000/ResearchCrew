@@ -5,6 +5,8 @@ It autonomously researches a topic, analyzes gathered information, and generates
 The system also supports **tool usage, agent orchestration, and extensible knowledge workflows**.
 
 ---
+<img width="1898" height="921" alt="image" src="https://github.com/user-attachments/assets/fedb1101-3912-4d24-a5ee-67b080f2ac60" />
+
 
 ## Overview
 
@@ -132,10 +134,10 @@ GROQ_API_KEY=your_groq_api_key
 
 ## Usage
 
-Run the main agent:
+Run the app:
 
 
-python main_agent.py
+streamlit run app.py
 
 
 Example input topic:
@@ -177,9 +179,6 @@ Generate final report
 - Retrieval-Augmented Generation (RAG)
 - Vector database integration
 - Knowledge base expansion
-- Streaming agent responses
-- Web UI with Streamlit
-- Multi-step research refinement
 
 ---
 

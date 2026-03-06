@@ -23,14 +23,3 @@ def search_tool(query: str) -> str:
         return top_searches
     except Exception:
         return "There was some network or other issue , so can't search on internet,tell the user to try again."
-
-
-# def format_docs(docs):
-#     text = ""
-#     for d in docs[:3]:
-#         text += f"""
-# Title: {d["title"]}
-# URL: {d["url"]}
-# Content: {d["content"][:400]}
-# """
-#     return text
